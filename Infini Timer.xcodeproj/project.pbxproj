@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E65C052138EB76008F10C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E65C042138EB76008F10C1 /* AppDelegate.swift */; };
+		30E65C072138EB76008F10C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E65C062138EB76008F10C1 /* ViewController.swift */; };
+		30E65C0A2138EB76008F10C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E65C082138EB76008F10C1 /* Main.storyboard */; };
+		30E65C0D2138EB76008F10C1 /* Infini_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30E65C0B2138EB76008F10C1 /* Infini_Timer.xcdatamodeld */; };
+		30E65C0F2138EB78008F10C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E65C0E2138EB78008F10C1 /* Assets.xcassets */; };
+		30E65C122138EB78008F10C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E65C102138EB78008F10C1 /* LaunchScreen.storyboard */; };
+		30E65C1D2138EB78008F10C1 /* Infini_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E65C1C2138EB78008F10C1 /* Infini_TimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E65C192138EB78008F10C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E65BF92138EB76008F10C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E65C002138EB76008F10C1;
+			remoteInfo = "Infini Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E65C012138EB76008F10C1 /* Infini Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infini Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E65C042138EB76008F10C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30E65C062138EB76008F10C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30E65C092138EB76008F10C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E65C0C2138EB76008F10C1 /* Infini_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Infini_Timer.xcdatamodel; sourceTree = "<group>"; };
+		30E65C0E2138EB78008F10C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E65C112138EB78008F10C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E65C132138EB78008F10C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E65C182138EB78008F10C1 /* Infini TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infini TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E65C1C2138EB78008F10C1 /* Infini_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infini_TimerUITests.swift; sourceTree = "<group>"; };
+		30E65C1E2138EB78008F10C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E65BFE2138EB76008F10C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E65C152138EB78008F10C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E65BF82138EB76008F10C1 = {
+			isa = PBXGroup;
+			children = (
+				30E65C032138EB76008F10C1 /* Infini Timer */,
+				30E65C1B2138EB78008F10C1 /* Infini TimerUITests */,
+				30E65C022138EB76008F10C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E65C022138EB76008F10C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E65C012138EB76008F10C1 /* Infini Timer.app */,
+				30E65C182138EB78008F10C1 /* Infini TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E65C032138EB76008F10C1 /* Infini Timer */ = {
+			isa = PBXGroup;
+			children = (
+				30E65C042138EB76008F10C1 /* AppDelegate.swift */,
+				30E65C062138EB76008F10C1 /* ViewController.swift */,
+				30E65C082138EB76008F10C1 /* Main.storyboard */,
+				30E65C0E2138EB78008F10C1 /* Assets.xcassets */,
+				30E65C102138EB78008F10C1 /* LaunchScreen.storyboard */,
+				30E65C132138EB78008F10C1 /* Info.plist */,
+				30E65C0B2138EB76008F10C1 /* Infini_Timer.xcdatamodeld */,
+			);
+			path = "Infini Timer";
+			sourceTree = "<group>";
+		};
+		30E65C1B2138EB78008F10C1 /* Infini TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30E65C1C2138EB78008F10C1 /* Infini_TimerUITests.swift */,
+				30E65C1E2138EB78008F10C1 /* Info.plist */,
+			);
+			path = "Infini TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E65C002138EB76008F10C1 /* Infini Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E65C212138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Infini Timer" */;
+			buildPhases = (
+				30E65BFD2138EB76008F10C1 /* Sources */,
+				30E65BFE2138EB76008F10C1 /* Frameworks */,
+				30E65BFF2138EB76008F10C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infini Timer";
+			productName = "Infini Timer";
+			productReference = 30E65C012138EB76008F10C1 /* Infini Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E65C172138EB78008F10C1 /* Infini TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E65C242138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Infini TimerUITests" */;
+			buildPhases = (
+				30E65C142138EB78008F10C1 /* Sources */,
+				30E65C152138EB78008F10C1 /* Frameworks */,
+				30E65C162138EB78008F10C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E65C1A2138EB78008F10C1 /* PBXTargetDependency */,
+			);
+			name = "Infini TimerUITests";
+			productName = "Infini TimerUITests";
+			productReference = 30E65C182138EB78008F10C1 /* Infini TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E65BF92138EB76008F10C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nick T";
+				TargetAttributes = {
+					30E65C002138EB76008F10C1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					30E65C172138EB78008F10C1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 30E65C002138EB76008F10C1;
+					};
+				};
+			};
+			buildConfigurationList = 30E65BFC2138EB76008F10C1 /* Build configuration list for PBXProject "Infini Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E65BF82138EB76008F10C1;
+			productRefGroup = 30E65C022138EB76008F10C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E65C002138EB76008F10C1 /* Infini Timer */,
+				30E65C172138EB78008F10C1 /* Infini TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E65BFF2138EB76008F10C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E65C122138EB78008F10C1 /* LaunchScreen.storyboard in Resources */,
+				30E65C0F2138EB78008F10C1 /* Assets.xcassets in Resources */,
+				30E65C0A2138EB76008F10C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E65C162138EB78008F10C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E65BFD2138EB76008F10C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E65C072138EB76008F10C1 /* ViewController.swift in Sources */,
+				30E65C0D2138EB76008F10C1 /* Infini_Timer.xcdatamodeld in Sources */,
+				30E65C052138EB76008F10C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E65C142138EB78008F10C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E65C1D2138EB78008F10C1 /* Infini_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E65C1A2138EB78008F10C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E65C002138EB76008F10C1 /* Infini Timer */;
+			targetProxy = 30E65C192138EB78008F10C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E65C082138EB76008F10C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E65C092138EB76008F10C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E65C102138EB78008F10C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E65C112138EB78008F10C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E65C1F2138EB78008F10C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30E65C202138EB78008F10C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E65C222138EB78008F10C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69PQ6Z87RU;
+				INFOPLIST_FILE = "Infini Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-T.Infini-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E65C232138EB78008F10C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69PQ6Z87RU;
+				INFOPLIST_FILE = "Infini Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-T.Infini-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30E65C252138EB78008F10C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69PQ6Z87RU;
+				INFOPLIST_FILE = "Infini TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-T.Infini-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Infini Timer";
+			};
+			name = Debug;
+		};
+		30E65C262138EB78008F10C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69PQ6Z87RU;
+				INFOPLIST_FILE = "Infini TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-T.Infini-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Infini Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E65BFC2138EB76008F10C1 /* Build configuration list for PBXProject "Infini Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E65C1F2138EB78008F10C1 /* Debug */,
+				30E65C202138EB78008F10C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E65C212138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Infini Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E65C222138EB78008F10C1 /* Debug */,
+				30E65C232138EB78008F10C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E65C242138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Infini TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E65C252138EB78008F10C1 /* Debug */,
+				30E65C262138EB78008F10C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30E65C0B2138EB76008F10C1 /* Infini_Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30E65C0C2138EB76008F10C1 /* Infini_Timer.xcdatamodel */,
+			);
+			currentVersion = 30E65C0C2138EB76008F10C1 /* Infini_Timer.xcdatamodel */;
+			path = Infini_Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30E65BF92138EB76008F10C1 /* Project object */;
+}
