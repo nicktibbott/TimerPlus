@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Infini Timer.xcscheme</key>
+		<key>Timer+.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>30E65C002138EB76008F10C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30E65C172138EB78008F10C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
