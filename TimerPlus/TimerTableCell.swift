@@ -129,24 +129,25 @@ class TimerTableCell: UITableViewCell {
             //alert
             AudioServicesPlaySystemSoundWithCompletion(1304, {})
         }
-
-        //seconds adjust
-        if timerValues.secondsRemaining > 0 {
-            timerValues.secondsRemaining = timerValues.secondsRemaining - 1
-        }
         else {
-            timerValues.secondsRemaining = 59
-            
-            if timerValues.minutesRemaining > 0 {
-                timerValues.minutesRemaining = timerValues.minutesRemaining - 1
+            //seconds adjust
+            if timerValues.secondsRemaining > 0 {
+                timerValues.secondsRemaining = timerValues.secondsRemaining - 1
             }
             else {
-                timerValues.minutesRemaining = 59
-                timerValues.hoursRemaining = timerValues.hoursRemaining - 1
+                timerValues.secondsRemaining = 59
+                
+                if timerValues.minutesRemaining > 0 {
+                    timerValues.minutesRemaining = timerValues.minutesRemaining - 1
+                }
+                else {
+                    timerValues.minutesRemaining = 59
+                    timerValues.hoursRemaining = timerValues.hoursRemaining - 1
+                }
             }
+            
+            adjustLabels()
         }
-        
-        adjustLabels()
     }
     
     func adjustLabels(){
