@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30B2496621547FAB0054A18F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2496521547FAB0054A18F /* SettingsTableViewController.swift */; };
 		30E65C052138EB76008F10C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E65C042138EB76008F10C1 /* AppDelegate.swift */; };
 		30E65C072138EB76008F10C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E65C062138EB76008F10C1 /* ViewController.swift */; };
 		30E65C0A2138EB76008F10C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E65C082138EB76008F10C1 /* Main.storyboard */; };
@@ -31,7 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30E65C012138EB76008F10C1 /* Timer+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B2496521547FAB0054A18F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		30E65C012138EB76008F10C1 /* TimerPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E65C042138EB76008F10C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30E65C062138EB76008F10C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30E65C092138EB76008F10C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,7 +41,7 @@
 		30E65C0E2138EB78008F10C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E65C112138EB78008F10C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30E65C132138EB78008F10C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30E65C182138EB78008F10C1 /* Timer+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E65C182138EB78008F10C1 /* TimerPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E65C1C2138EB78008F10C1 /* Infini_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infini_TimerUITests.swift; sourceTree = "<group>"; };
 		30E65C1E2138EB78008F10C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E65C27213901E4008F10C1 /* AddTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerVC.swift; sourceTree = "<group>"; };
@@ -69,8 +71,8 @@
 		30E65BF82138EB76008F10C1 = {
 			isa = PBXGroup;
 			children = (
-				30E65C032138EB76008F10C1 /* Timer+ */,
-				30E65C1B2138EB78008F10C1 /* Timer+UITests */,
+				30E65C032138EB76008F10C1 /* TimerPlus */,
+				30E65C1B2138EB78008F10C1 /* TimerPlusUITests */,
 				30E65C022138EB76008F10C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,13 +80,13 @@
 		30E65C022138EB76008F10C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30E65C012138EB76008F10C1 /* Timer+.app */,
-				30E65C182138EB78008F10C1 /* Timer+UITests.xctest */,
+				30E65C012138EB76008F10C1 /* TimerPlus.app */,
+				30E65C182138EB78008F10C1 /* TimerPlusUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30E65C032138EB76008F10C1 /* Timer+ */ = {
+		30E65C032138EB76008F10C1 /* TimerPlus */ = {
 			isa = PBXGroup;
 			children = (
 				30E65C042138EB76008F10C1 /* AppDelegate.swift */,
@@ -94,29 +96,30 @@
 				30E65C27213901E4008F10C1 /* AddTimerVC.swift */,
 				30E65C2F21392EEA008F10C1 /* TimerTableCell.swift */,
 				30E65C102138EB78008F10C1 /* LaunchScreen.storyboard */,
+				30B2496521547FAB0054A18F /* SettingsTableViewController.swift */,
 				30E65C3121392F8F008F10C1 /* TimersTableViewController.swift */,
 				30E65C33213A755A008F10C1 /* TimerObj.swift */,
 				30E65C132138EB78008F10C1 /* Info.plist */,
 				30E65C0B2138EB76008F10C1 /* Infini_Timer.xcdatamodeld */,
 			);
-			path = "Timer+";
+			path = TimerPlus;
 			sourceTree = "<group>";
 		};
-		30E65C1B2138EB78008F10C1 /* Timer+UITests */ = {
+		30E65C1B2138EB78008F10C1 /* TimerPlusUITests */ = {
 			isa = PBXGroup;
 			children = (
 				30E65C1C2138EB78008F10C1 /* Infini_TimerUITests.swift */,
 				30E65C1E2138EB78008F10C1 /* Info.plist */,
 			);
-			path = "Timer+UITests";
+			path = TimerPlusUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30E65C002138EB76008F10C1 /* Timer+ */ = {
+		30E65C002138EB76008F10C1 /* TimerPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30E65C212138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Timer+" */;
+			buildConfigurationList = 30E65C212138EB78008F10C1 /* Build configuration list for PBXNativeTarget "TimerPlus" */;
 			buildPhases = (
 				30E65BFD2138EB76008F10C1 /* Sources */,
 				30E65BFE2138EB76008F10C1 /* Frameworks */,
@@ -126,14 +129,14 @@
 			);
 			dependencies = (
 			);
-			name = "Timer+";
+			name = TimerPlus;
 			productName = "Infini Timer";
-			productReference = 30E65C012138EB76008F10C1 /* Timer+.app */;
+			productReference = 30E65C012138EB76008F10C1 /* TimerPlus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30E65C172138EB78008F10C1 /* Timer+UITests */ = {
+		30E65C172138EB78008F10C1 /* TimerPlusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30E65C242138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Timer+UITests" */;
+			buildConfigurationList = 30E65C242138EB78008F10C1 /* Build configuration list for PBXNativeTarget "TimerPlusUITests" */;
 			buildPhases = (
 				30E65C142138EB78008F10C1 /* Sources */,
 				30E65C152138EB78008F10C1 /* Frameworks */,
@@ -144,9 +147,9 @@
 			dependencies = (
 				30E65C1A2138EB78008F10C1 /* PBXTargetDependency */,
 			);
-			name = "Timer+UITests";
+			name = TimerPlusUITests;
 			productName = "Infini TimerUITests";
-			productReference = 30E65C182138EB78008F10C1 /* Timer+UITests.xctest */;
+			productReference = 30E65C182138EB78008F10C1 /* TimerPlusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 30E65BFC2138EB76008F10C1 /* Build configuration list for PBXProject "Timer+" */;
+			buildConfigurationList = 30E65BFC2138EB76008F10C1 /* Build configuration list for PBXProject "TimerPlus" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -186,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30E65C002138EB76008F10C1 /* Timer+ */,
-				30E65C172138EB78008F10C1 /* Timer+UITests */,
+				30E65C002138EB76008F10C1 /* TimerPlus */,
+				30E65C172138EB78008F10C1 /* TimerPlusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +224,7 @@
 				30E65C0D2138EB76008F10C1 /* Infini_Timer.xcdatamodeld in Sources */,
 				30E65C28213901E4008F10C1 /* AddTimerVC.swift in Sources */,
 				30E65C34213A755A008F10C1 /* TimerObj.swift in Sources */,
+				30B2496621547FAB0054A18F /* SettingsTableViewController.swift in Sources */,
 				30E65C052138EB76008F10C1 /* AppDelegate.swift in Sources */,
 				30E65C3021392EEA008F10C1 /* TimerTableCell.swift in Sources */,
 				30E65C3221392F8F008F10C1 /* TimersTableViewController.swift in Sources */,
@@ -240,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		30E65C1A2138EB78008F10C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30E65C002138EB76008F10C1 /* Timer+ */;
+			target = 30E65C002138EB76008F10C1 /* TimerPlus */;
 			targetProxy = 30E65C192138EB78008F10C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -316,11 +320,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Timer+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TimerPlus/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(SRCROOT)/Timer+/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SRCROOT)/TimerPlus/Info.plist";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -372,10 +376,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Timer+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TimerPlus/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(SRCROOT)/Timer+/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SRCROOT)/TimerPlus/Info.plist";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -389,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69PQ6Z87RU;
-				INFOPLIST_FILE = "$(SRCROOT)/Timer+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TimerPlus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69PQ6Z87RU;
-				INFOPLIST_FILE = "$(SRCROOT)/Timer+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TimerPlus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +466,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30E65BFC2138EB76008F10C1 /* Build configuration list for PBXProject "Timer+" */ = {
+		30E65BFC2138EB76008F10C1 /* Build configuration list for PBXProject "TimerPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30E65C1F2138EB78008F10C1 /* Debug */,
@@ -471,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30E65C212138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Timer+" */ = {
+		30E65C212138EB78008F10C1 /* Build configuration list for PBXNativeTarget "TimerPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30E65C222138EB78008F10C1 /* Debug */,
@@ -480,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30E65C242138EB78008F10C1 /* Build configuration list for PBXNativeTarget "Timer+UITests" */ = {
+		30E65C242138EB78008F10C1 /* Build configuration list for PBXNativeTarget "TimerPlusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30E65C252138EB78008F10C1 /* Debug */,

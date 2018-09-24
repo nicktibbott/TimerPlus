@@ -117,16 +117,17 @@ class TimerTableCell: UITableViewCell {
     
     @objc func adjustTime(){
         //check if finished
-        if timerValues.hoursRemaining == 0 && timerValues.minutesRemaining == 0 && timerValues.secondsRemaining == 1 {
-            timer.invalidate()
-            timerValues.startImmediately = false
-            pausePlayButton.setTitle("↺", for: .normal)
-            pausePlayButton.titleLabel?.font = UIFont.systemFont(ofSize: 24, weight: .black)
-            pausePlayButton.backgroundColor = UIColor.lightGray
+        if timerValues.hoursRemaining <= 0 && timerValues.minutesRemaining <= 0 && timerValues.secondsRemaining <= 1 {
+            
+            setTimerFinished()
+//            timer.invalidate()
+//            timerValues.startImmediately = false
+//            pausePlayButton.setTitle("↺", for: .normal)
+//            pausePlayButton.titleLabel?.font = UIFont.systemFont(ofSize: 24, weight: .black)
+//            pausePlayButton.backgroundColor = UIColor.lightGray
             
             //alert
-            AudioServicesPlaySystemSoundWithCompletion(1304, {
-            })
+            AudioServicesPlaySystemSoundWithCompletion(1304, {})
         }
 
         //seconds adjust
@@ -220,9 +221,14 @@ class TimerTableCell: UITableViewCell {
         content.title = timerValues.name
         content.body = "Timer done."
         content.sound = UNNotificationSound.default()
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: Double(timerValues.secondsRemaining + (timerValues.minutesRemaining*60) + (timerValues.hoursRemaining*3600)), repeats: false)
-        let request = UNNotificationRequest(identifier: timerValues.name, content: content, trigger: trigger)
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        
+        let notificationDelaySeconds = Double(timerValues.secondsRemaining + (timerValues.minutesRemaining*60) + (timerValues.hoursRemaining*3600))
+        
+        if notificationDelaySeconds > 0 {
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: Double(timerValues.secondsRemaining + (timerValues.minutesRemaining*60) + (timerValues.hoursRemaining*3600)), repeats: false)
+            let request = UNNotificationRequest(identifier: timerValues.name, content: content, trigger: trigger)
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        }
     }
     
     @IBAction func reset(_ sender: Any) {

@@ -60,7 +60,9 @@ class AddTimerVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
             if timerNameTextField.text != "" {
                 createTimer()
                 createNotification()
-                saveTimerData()
+                if UserDefaults.standard.value(forKey: "saveTimers") as! Bool {
+                    saveTimerData()
+                }
                 navigationController?.popViewController(animated: true)
             }
             else {
