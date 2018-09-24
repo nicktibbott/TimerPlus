@@ -102,7 +102,7 @@ class TimerTableCell: UITableViewCell {
                             timerValues.secondsRemaining = 59 - (CGFloat(secondsAway) - timerValues.secondsRemaining)
                         }
                         else {
-                            //timer has finished in the background
+                            //timer has finished in the background  
                             setTimerFinished()
                             return
                         }
