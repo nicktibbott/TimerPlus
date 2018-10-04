@@ -72,19 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30B24967215989710054A18F /* Screen Captures */ = {
+		30B24967215989710054A18F /* ScreenCaptures */ = {
 			isa = PBXGroup;
 			children = (
 				30B2496A21598B2A0054A18F /* DeleteTimer.gif */,
 				30B2496C21598B2E0054A18F /* AddTimer.gif */,
 			);
-			path = "Screen Captures";
+			path = ScreenCaptures;
 			sourceTree = "<group>";
 		};
 		30E65BF82138EB76008F10C1 = {
 			isa = PBXGroup;
 			children = (
-				30B24967215989710054A18F /* Screen Captures */,
+				30B24967215989710054A18F /* ScreenCaptures */,
 				30E65C032138EB76008F10C1 /* TimerPlus */,
 				30E65C1B2138EB78008F10C1 /* TimerPlusUITests */,
 				30E65C022138EB76008F10C1 /* Products */,
