@@ -17,8 +17,13 @@ To install and run this project:
 Have the latest version of XCode and Swift installed on your machine.
 
 ## Screen Captures
+Adding a timer
 
-coming soon...
+![Alt Text](ScreenCaptures/AddTimer.gif)
+
+Deleting a timer
+
+![Alt Text](ScreenCaptures/DeleteTimer.gif)
 
 ## Authors
 
