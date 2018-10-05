@@ -19,11 +19,11 @@ Have the latest version of XCode and Swift installed on your machine.
 ## Screen Captures
 Adding a timer
 
-![Alt Text](ScreenCaptures/AddTimer.gif)
+<img src="ScreenCaptures/AddTimer.gif" width="40%" height="40%">.
 
 Deleting a timer
 
-![Alt Text](ScreenCaptures/DeleteTimer.gif)
+<img src="ScreenCaptures/DeleteTimer.gif" width="40%" height="40%">.
 
 ## Authors
 
