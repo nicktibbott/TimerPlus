@@ -1,6 +1,6 @@
 # Timer Plus v0.8.1
 
-iOS application for creating, saving, and running multiple timers simultaneously. Utilizes core frameworks such as Notifications, UserDefaults, and CoreData. 
+iOS application for creating, saving, and running multiple timers simultaneously.
 
 Created in XCode 9 using Swift 4.
 
